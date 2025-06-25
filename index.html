@@ -1,0 +1,250 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+  <!-- Meta tags Obrigatórias -->
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+  <!-- Bootstrap CSS -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+
+  <!-- icones -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet">
+
+  <!-- link para o css-->
+  <link rel="stylesheet" href="css/index.css">
+
+  <!-- icon do site-->
+  <link rel="icon" href="img/icon.png">
+
+  <title>Bartolomeu petshop</title>
+</head>
+
+<body>
+
+  <!-- inicio do cabecalho -->
+  <header>
+    <div class="header-content">
+      <img src="img/logo.png" alt="Logo Bartolomeu Pet Shop" class="logo-img">
+
+      <!-- botão menu responsivo -->
+      <button class="menu-toggle" aria-label="Abrir Menu">&#9776;</button>
+
+      <nav class="nav-menu">
+        <a href="#inicio">Início</a>
+        <a href="#servicos">Serviços</a>
+        <a href="#loja">Loja</a>
+        <a href="#localizacao">Localização</a>
+      </nav>
+    </div>
+  </header>
+  <!-- fim do cabecalho -->
+
+  <!-- seção do carrosel-->
+  <section class="d-none d-md-block">
+    <div id="carrosel" class="carousel slide" data-bs-ride="carousel" data-bs-interval="3000">
+      <div class="carousel-indicators">
+        <button type="button" data-bs-target="#carrosel" data-bs-slide-to="0" class="active" aria-current="true"
+          aria-label="Slide 1"></button>
+        <button type="button" data-bs-target="#carrosel" data-bs-slide-to="1" aria-label="Slide 2"></button>
+        <button type="button" data-bs-target="#carrosel" data-bs-slide-to="2" aria-label="Slide 3"></button>
+      </div>
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <img src="img/slide_1.png" class="d-block w-100" alt="primeiro">
+        </div>
+        <div class="carousel-item">
+          <img src="img/slide_2.png" class="d-block w-100" alt="segundo">
+        </div>
+        <div class="carousel-item">
+          <img src="img/slide_3.png" class="d-block w-100" alt="terceiro">
+        </div>
+      </div>
+      <button class="carousel-control-prev" type="button" data-bs-target="#carrosel" data-bs-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+      </button>
+      <button class="carousel-control-next" type="button" data-bs-target="#carrosel" data-bs-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+      </button>
+    </div>
+  </section>
+
+  <!-- fim da seção do carrosel-->
+
+  <!-- seção sobre a loja -->
+  <section>
+ <section class="secao" id="servicos">
+    <div class="titulo">
+      <h2>Sobre Nós</h2>
+      <div class="cor"></div>
+    </div>
+<div class="sobre-nos">
+  <p>
+    Olá, somos um pet shop com a missão de promover tudo o que seu pet precisa
+    para uma vida saudável e feliz, entregando o melhor atendimento e qualidade
+    nos serviços e produtos. Ficaremos felizes em ter você fazendo parte da nossa
+    família. 🐶🐱❤️
+  </p>
+</div>
+  </section>
+  <!-- seção sobre a loja -->
+
+
+  <!-- SEÇÃO SERVIÇOS -->
+  <section class="secao" id="servicos">
+    <div class="titulo">
+      <h2>Serviços</h2>
+      <div class="cor"></div>
+    </div>
+    
+    <div class="cards">
+      <div class="card">
+        <img src="img/veterinaria.jpg" alt="Veterinaria">
+        <div>
+          <h3>Veterinária</h3>
+          <p>Cuidamos do seu pet como um membro da família, com carinho, atenção e toda a saúde que ele merece 🐾💉<br>
+            consultas, vacinas, exames laboratoriais, radiografia e tudo que o seu pet nescessitar<br>
+            venha nos conhecer!!!
+           
+          </p>
+          <a href="https://api.whatsapp.com/send?phone=5517997728836" class="cta-btn">Agende uma consulta</a>
+        </div>
+      </div>
+
+      <div class="card">
+        <img  src="img/banho.jpg" alt="Banho e Tosa">
+        <div>
+          <h3>Banho & Tosa</h3>
+          <p>Um dia de spa para seu pet sair perfumado, feliz e com o rabinho abanando! ✨🛁🐶</p>
+          <a href="https://api.whatsapp.com/send?phone=5517997728836" class="cta-btn">Agende um horário</a>
+        </div>
+      </div>
+      <div class="card">
+        <img src="img/taxi_dog.jpg" alt="Taxi Dog">
+        <div>
+          <h3>Taxi Dog</h3>
+          <p>Transporte seguro e confortável para seu pet, com todo o amor que ele merece no trajeto!</p>
+          
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- SEÇÃO LOJA -->
+  <section class="secao" id="loja">
+    <div class="titulo">
+      <h2>Loja</h2>
+      <div class="cor"></div>
+    </div>
+    <div class="cards">
+      <div class="card">
+        <img src="img/racoes.jpg" alt="Rações">
+        <div>
+          <h3>Rações</h3>
+          <p>Nutrição é amor em forma de croquete! 💛
+Aqui você encontra as melhores marcas, com ingredientes selecionados que cuidam do seu pet por dentro e por fora. Para filhotes, adultos ou idosos — temos a ração ideal para cada fase e cada rabinho abanando! 🐕🐈✨</p>
+        </div>
+      </div>
+      <div class="card">
+        <img src="img/brinquedos.jpg" alt="Brinquedos">
+        <div>
+          <h3>Brinquedos</h3>
+          <p>Diversão que faz os olhinhos brilharem! 🧡
+Brinquedos seguros, resistentes e pensados para estimular, alegrar e fortalecer o vínculo entre você e seu pet. Aqui, brincar é sinônimo de amor e felicidade! 🐾🧸 venha conhecer!!!</p>
+      <a href="catalogo.html" class="cta-btn">Conferir</a>
+      </div>
+      </div>
+      <div class="card">
+        <img  src="img/remedio.jpg" alt="Remédios">
+        <div>
+          <h3>Remédios</h3>
+          <p>Cuidar também é amar! ❤️
+Nossa loja oferece os melhores medicamentos veterinários com procedência confiável e orientação segura. Porque seu pet merece estar saudável, protegido e cheio de vitalidade todos os dias. 🐶🐱💊 </p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Mapa Google Maps -->
+  <!-- SEÇÃO LOCALIZAÇÃO -->
+  <section class="secao" id="localizacao">
+    <div class="titulo">
+      <h2>Localização</h2>
+      <div class="cor"></div>
+    </div>
+    <div id="mapa">
+      <iframe
+        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3623.6512248488334!2d-49.429509534849075!3d-20.798078179224955!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94bdadf23d37152b%3A0x134a5bf7ba335e47!2sBartolomeu%20Pet%20Shop%20e%20Veterin%C3%A1rio!5e0!3m2!1spt-PT!2sbr!4v1749076720950!5m2!1spt-PT!2sbr"
+        width="100%" height="450" style="border:0;" allowfullscreen="" loading="lazy"
+        referrerpolicy="no-referrer-when-downgrade">
+      </iframe>
+    </div>
+  </section>
+
+   <footer class="text-white py-4 mt-5" style="background-color: var(--azul-petroleo);">
+  <div class="container">
+    <div class="row">
+
+      <div class="col-md-4 mb-4">
+        <h5><i class="bi bi-geo-alt-fill"></i> Endereço</h5>
+        <p>Av. José Piedade, 2111 - J Macedo<br>São José do Rio Preto - SP<br>15040-667</p>
+      </div>
+
+      <div class="col-md-4 mb-4">
+        <h5><i class="bi bi-clock-fill"></i> Horário de Funcionamento</h5>
+        <ul class="list-unstyled">
+          <li><strong>Segunda a Sexta:</strong> 08:00 – 19:30</li>
+          <li><strong>Sábado:</strong> 08:00 – 15:00</li>
+          <li><strong>Domingo:</strong> 09:00 – 13:00</li>
+        </ul>
+      </div>
+
+      <div class="col-md-4 mb-4">
+        <h5><i class="bi bi-telephone-fill"></i> Contato</h5>
+        <p><i class="bi bi-instagram"></i> <a href="https://www.instagram.com/bartolomeu.petshop/?igsh=NGc1bThnZ3R4bDEz"       class="text-white text-decoration-none" target="_blank">bartolomeu.petshop </a></p>
+        <p><i class="bi bi-phone-fill"></i> (17) 99772-8836</p>
+      </div>
+
+    </div>
+    <hr class="bg-white">
+    <p class="text-center mb-0">&copy; 2025 Bartolomeu Pet Shop</p>
+  </div>
+
+  <a href="https://api.whatsapp.com/send?phone=5517997728836" class="botton-whatsapp" target="_blank">
+        <img src="img/whatssapp.png" alt="Botão whatsapp">
+    </a>
+
+</footer>
+
+
+  <!-- menu hamburguer -->
+  <script>
+    const toggle = document.querySelector('.menu-toggle');
+    const nav = document.querySelector('.nav-menu');
+
+    toggle.addEventListener('click', () => {
+      nav.classList.toggle('active');
+    });
+  </script>
+  <!-- fim do menu hamburguer -->
+
+
+  <!-- JavaScript (Opcional) -->
+  <!-- jQuery primeiro, depois Popper.js, depois Bootstrap JS -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
+    crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js"
+    integrity="sha384-7+zCNj/IqJ95wo16oMtfsKbZ9ccEh31eOz1HGyDuCQ6wgnyJNSYdrPa03rtR1zdB"
+    crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.min.js"
+    integrity="sha384-QJHtvGhmr9XOIpI6YVutG+2QOK9T+ZnN4kzFN1RtK3zEFEIsxhlmWl5/YESvpZ13"
+    crossorigin="anonymous"></script>
+</body>
+
+</html>
